@@ -17,9 +17,9 @@ contract TRC20 {
 
     event Burn(address indexed from, uint256 value);
 
-    uint256 initialSupply = 10000;
-    string tokenName = 'AlphaCoin';
-    string tokenSymbol = 'APC';
+    uint256 initialSupply = 100000000;
+    string tokenName = 'TheWebToken';
+    string tokenSymbol = 'TWT';
      constructor() public {
 
         totalSupply = initialSupply * 10 ** uint256(decimals);  //As solidity doesn't support decimals thus - Update total supply with the decimal amount
